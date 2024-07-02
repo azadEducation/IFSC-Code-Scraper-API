@@ -1,7 +1,7 @@
 const { DataTypes, literal } = require('sequelize');
 const sequelize = require('../config/database');
 
-const bank_ifsc_codes = sequelize.mysip_crm.define('bank_ifsc_codes', {
+const bank_ifsc_codes = sequelize.banks.define('bank_ifsc_codes', {
     ifsc_code: {
         type: DataTypes.STRING(250),
         primaryKey: true
