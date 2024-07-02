@@ -1,0 +1,33 @@
+{
+  "name": "ifsc-code-scraper-api",
+  "version": "1.0.0",
+  "description": "A Node.js API for fetching and storing bank IFSC code data using the Razorpay IFSC API.",
+  "main": "processIFSCs.js",
+  "scripts": {
+    "start": "node processIFSCs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azadEducation/IFSC-Code-Scraper-API.git"
+  },
+  "keywords": [
+    "ifsc",
+    "api",
+    "scraper",
+    "node.js",
+    "sequelize",
+    "bank",
+    "financial",
+    "data"
+  ],
+  "author": "Azad Mohammed Rangrej",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "sequelize": "^6.32.1",
+    "mysql2": "^3.4.0"  
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
