@@ -3,45 +3,17 @@ const { Sequelize } = require('sequelize');
 // Database configurations
 const dbConfigs = {
   default: {
-    database: 'mysip_transactions',
+    database: 'bank_data',
     username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
+    password: '1234',
+    host: 'localhost',
     dialect: 'mysql',
   },
-  website_live: {
-    database: 'mysip_web',
+  banks: {
+    database: 'bank_data',
     username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
-    dialect: 'mysql',
-  },
-  kra_transaction: {
-    database: 'mysip_transactions',
-    username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
-    dialect: 'mysql',
-  },
-  website: {
-    database: 'mysip_web',
-    username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
-    dialect: 'mysql',
-  },
-  mysip_nav: {
-    database: 'mysip_nav',
-    username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
-    dialect: 'mysql',
-  },
-  mysip_crm: {
-    database: 'mysip_crm',
-    username: 'root',
-    password: 'wooden@123',
-    host: '10.4.1.9',
+    password: '1234',
+    host: 'localhost',
     dialect: 'mysql',
   },
 
